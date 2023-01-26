@@ -17,11 +17,11 @@ root.render(
           <Route path="" element={<Dashboard/>}></Route>
           <Route
             path="*"
-            element={
-              <main style={{ padding: "1rem" }}>
-                <p>Something awesome coming soon!</p>
-                <Link to="/">Home</Link>
-              </main>
+            element={        
+              <>
+              <Link to="/">Home</Link>
+              <h4>Something awesome coming soon!</h4>
+              </>
             }
             />
         </Route>

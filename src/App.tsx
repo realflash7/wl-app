@@ -6,7 +6,7 @@ import { Outlet } from 'react-router';
 function App() {
   return (
     <div style={{ margin: "1rem"}}>
-      <h1>Wishlink Dashboard</h1>
+      <h1>Wishlink-test</h1>
       <Outlet></Outlet>
 
 

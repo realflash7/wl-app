@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Dashboard() {
     return(
         <>
-        Dashboard
+        <Link to="/">Home</Link>
+        <h2>Dashboard</h2>
         </>
     )
 };
