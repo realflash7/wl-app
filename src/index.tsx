@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import BrandNavigation from './components/BrandNavigation';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App/>}>
           <Route path="" element={<Dashboard/>}></Route>
+          <Route path="brands" element={<BrandNavigation/>}></Route>
           <Route
             path="*"
             element={        
