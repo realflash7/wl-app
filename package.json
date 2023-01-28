@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@capacitor/android": "^4.6.2",
+    "@capacitor/browser": "^4.1.1",
     "@capacitor/ios": "^4.6.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
